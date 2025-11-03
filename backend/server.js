@@ -28,6 +28,7 @@ app.get('/api/health', (req, res) => {
 
 // Routes (we'll add these later)
  app.use('/api/address', require('./routes/address'));
+ app.use('/api/routing', require('./routes/routing'));
 
 // Error handling middleware
 app.use((err, req, res, next) => {
