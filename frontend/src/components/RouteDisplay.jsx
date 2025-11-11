@@ -99,6 +99,7 @@ const RouteDisplay = ({ route }) => {
         </Typography>
       </Box>
     </Paper>
+    
   );
 };
 
