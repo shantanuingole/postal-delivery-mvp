@@ -88,6 +88,7 @@ const smartSimilarityScore = (input, target) => {
 const fuzzyMatchLocality = (input, localities, threshold = 70) => {
   if (!input || !localities || localities.length === 0) {
     return { 
+      
       match: null, 
       score: 0, 
       alternatives: [] 
