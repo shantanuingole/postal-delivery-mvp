@@ -26,6 +26,7 @@ router.post('/validate', async (req, res) => {
         return res.json({
           success: true,
           confidence: 100,
+          
           correctedAddress: {
             officeName: pincodeData.officeName,
             pincode: pincodeData.pincode,
