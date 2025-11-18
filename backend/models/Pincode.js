@@ -15,6 +15,8 @@ const pincodeSchema = new mongoose.Schema({
     type: String,
     required: true,
     index: true
+
+    
   },
   state: {
     type: String,
