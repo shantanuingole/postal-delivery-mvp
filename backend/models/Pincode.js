@@ -27,6 +27,7 @@ const pincodeSchema = new mongoose.Schema({
   officeType: {
     type: String,
     enum: ['B.O', 'S.O', 'H.O'],
+    
     default: 'S.O'
   }
 }, {
