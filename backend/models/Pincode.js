@@ -22,6 +22,7 @@ const pincodeSchema = new mongoose.Schema({
     type: String,
     
     default: 'Maharashtra'
+    
   },
   
   officeType: {
