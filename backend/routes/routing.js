@@ -16,6 +16,7 @@ const HUB_NETWORK = {
       'Mumbai GPO': 150,
       'Solapur HO': 250,
       'Aurangabad GPO': 230,
+      
       'Kolhapur HO': 230
     },
     district: 'Pune'
