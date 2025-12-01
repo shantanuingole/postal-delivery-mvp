@@ -36,6 +36,7 @@ const levenshteinDistance = (str1, str2) => {
  */
 const smartSimilarityScore = (input, target) => {
   const inputLower = input.toLowerCase().trim();
+  
   const targetLower = target.toLowerCase().trim();
   
   // Exact match
