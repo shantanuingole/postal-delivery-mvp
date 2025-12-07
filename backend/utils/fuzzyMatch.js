@@ -22,6 +22,7 @@ const levenshteinDistance = (str1, str2) => {
         dp[i][j] = 1 + Math.min(
           dp[i - 1][j],
           dp[i][j - 1],
+          
           dp[i - 1][j - 1]
           
         );
