@@ -6,7 +6,9 @@ const levenshteinDistance = (str1, str2) => {
   str2 = str2.toLowerCase();
   
   const m = str1.length;
+  
   const n = str2.length;
+
   
   const dp = Array(m + 1).fill(null).map(() => Array(n + 1).fill(0));
 
