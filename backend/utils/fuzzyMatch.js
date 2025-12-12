@@ -49,7 +49,9 @@ const smartSimilarityScore = (input, target) => {
   
   // Exact match
   if (inputLower === targetLower) {
+
     return 100;
+
   }
   
   // Check if input is contained in target (partial match)
@@ -59,6 +61,7 @@ const smartSimilarityScore = (input, target) => {
   
   // Check if any word in target matches input closely
   const targetWords = targetLower.split(/\s+/);
+  
   const inputWords = inputLower.split(/\s+/);
   
   let bestWordScore = 0;
