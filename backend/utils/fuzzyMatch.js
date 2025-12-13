@@ -57,6 +57,7 @@ const smartSimilarityScore = (input, target) => {
   // Check if input is contained in target (partial match)
   if (targetLower.includes(inputLower)) {
     return 95; // High score for substring matches
+    
   }
   
   // Check if any word in target matches input closely
