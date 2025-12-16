@@ -67,6 +67,7 @@ const smartSimilarityScore = (input, target) => {
   
   let bestWordScore = 0;
   
+  
   for (const inputWord of inputWords) {
     for (const targetWord of targetWords) {
       // Skip very short words
