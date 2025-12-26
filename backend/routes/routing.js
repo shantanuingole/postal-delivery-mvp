@@ -24,6 +24,7 @@ const HUB_NETWORK = {
   'Nagpur GPO': {
     connections: {
       'Wardha HO': 75,
+      
       'Akola HO': 250,
       'Aurangabad GPO': 450
     },
