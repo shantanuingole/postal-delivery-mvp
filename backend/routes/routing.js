@@ -25,6 +25,7 @@ const HUB_NETWORK = {
     connections: {
       'Wardha HO': 75,
       
+      
       'Akola HO': 250,
       'Aurangabad GPO': 450
     },
