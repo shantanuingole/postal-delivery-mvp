@@ -72,11 +72,13 @@ const smartSimilarityScore = (input, target) => {
   
   for (const inputWord of inputWords) {
     for (const targetWord of targetWords) {
+
       // Skip very short words
       if (inputWord.length < 3 || targetWord.length < 3) continue;
       
       const distance = levenshteinDistance(inputWord, targetWord);
       const maxLength = Math.max(inputWord.length, targetWord.length);
+      
       const wordScore = ((maxLength - distance) / maxLength) * 100;
       
       if (wordScore > bestWordScore) {
