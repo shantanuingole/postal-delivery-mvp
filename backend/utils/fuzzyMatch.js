@@ -85,7 +85,8 @@ const smartSimilarityScore = (input, target) => {
       
       if (wordScore > bestWordScore) {
         
-        bestWordScore = wordScore;
+        bestWordScore 
+        = wordScore;
 
       }
     }
